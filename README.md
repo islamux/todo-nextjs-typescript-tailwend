@@ -11,6 +11,10 @@ A simple and beautiful todo application built with Next.js 15, TypeScript, and T
 - ✅ Type-safe code with TypeScript
 - ✅ Modern React patterns with Next.js 14
 
+## Tutorial
+
+For a detailed, step-by-step guide to building this project from scratch, please see the [TUTORIAL.md](TUTORIAL.md) file.
+
 ## GitHub Repository
 
 [https://github.com/islamux/todo-nextjs-typescript-tailwend](https://github.com/islamux/todo-nextjs-typescript-tailwend)
@@ -25,8 +29,8 @@ A simple and beautiful todo application built with Next.js 15, TypeScript, and T
 1.  **Clone the repository:**
     ```bash
     git clone 'https://github.com/islamux/todo-nextjs-typescript-tailwend'
-    cd my-todo-app
     ```
+    Navigate into the project directory.
 
 2.  **Install dependencies:**
     ```bash
@@ -45,16 +49,23 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 The main application code is located in the `src/` directory.
 
 ```
-my-todo-app/
+.
 ├── src/
 │   └── app/
-│       ├── globals.css      # Global styles (includes Tailwind)
-│       ├── layout.tsx       # Root layout component
-│       └── page.tsx         # Home page component
-├── public/                  # Static files (images, icons, etc.)
-├── package.json            # Project dependencies
-├── tailwind.config.ts      # Tailwind CSS configuration
-└── tsconfig.json          # TypeScript configuration
+│       ├── globals.css
+│       ├── layout.tsx
+│       ├── page.tsx
+│       ├── components/
+│       │   ├── TodoApp.tsx
+│       │   ├── TodoInput.tsx
+│       │   ├── Todoitems.tsx
+│       │   └── TodoStats.tsx
+│       └── types/
+│           └── todos.ts
+├── public/
+├── package.json
+├── tailwind.config.ts
+└── tsconfig.json
 ```
 
 -   **`src/app/`**: Contains the core application logic and UI components.
