@@ -1,6 +1,6 @@
 # Next.js 14 Todo App
 
-A simple and beautiful todo application built with Next.js 15, TypeScript, and Tailwind CSS. This project follows a tutorial to demonstrate modern web development practices.
+A simple and beautiful todo application built with Next.js 14, TypeScript, and Tailwind CSS. This project follows a tutorial to demonstrate modern web development practices.
 
 ## Features
 
@@ -10,10 +10,14 @@ A simple and beautiful todo application built with Next.js 15, TypeScript, and T
 - ✅ Responsive design with Tailwind CSS
 - ✅ Type-safe code with TypeScript
 - ✅ Modern React patterns with Next.js 14
+- ✅ Statistics for completed and remaining todos
 
-## Tutorial
+## Tutorials
 
-For a detailed, step-by-step guide to building this project from scratch, please see the [TUTORIAL.md](TUTORIAL.md) file.
+This project includes two detailed tutorials:
+
+- **[TUTORIAL-BASE.md](TUTORIAL-BASE.md):** A step-by-step guide to building the todo application from scratch.
+- **[TAILWIND_TUTORIAL.md](TAILWIND_TUTORIAL.md):** A comprehensive breakdown of the Tailwind CSS classes used in the project.
 
 ## GitHub Repository
 
@@ -70,6 +74,8 @@ The main application code is located in the `src/` directory.
 
 -   **`src/app/`**: Contains the core application logic and UI components.
 -   **`src/app/page.tsx`**: The main component that renders the todo application.
+-   **`src/app/components/`**: Contains all the React components.
+-   **`src/app/types/`**: Contains all the TypeScript types.
 -   **`public/`**: For static assets like images and icons.
 
 ## Technologies Used
