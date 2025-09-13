@@ -1,6 +1,6 @@
-# Next.js 14 Todo App
+# Next.js 15 Todo App
 
-A simple and beautiful todo application built with Next.js 14, TypeScript, and Tailwind CSS. This project follows a tutorial to demonstrate modern web development practices.
+A simple and beautiful todo application built with Next.js 15, TypeScript, and Tailwind CSS. This project follows a tutorial to demonstrate modern web development practices.
 
 ## Features
 
@@ -9,7 +9,7 @@ A simple and beautiful todo application built with Next.js 14, TypeScript, and T
 - ✅ Delete todos
 - ✅ Responsive design with Tailwind CSS
 - ✅ Type-safe code with TypeScript
-- ✅ Modern React patterns with Next.js 14
+- ✅ Modern React patterns with Next.js 15
 - ✅ Statistics for completed and remaining todos
 
 ## Tutorials
