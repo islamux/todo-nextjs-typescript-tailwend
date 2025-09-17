@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/islamux/todo-nextjs-typescript-tailwend/logs/.d96d1c2175c775dab3b6024848253a8501c52d29-audit.json",
+    "files": [
+        {
+            "date": 1758118843453,
+            "name": "/home/islamux/todo-nextjs-typescript-tailwend/logs/mcp-puppeteer-2025-09-17.log",
+            "hash": "b9b6d77fbca75532087ec3e49dd0778d5f8536b5b5d5e13d71654cdb5de9e71b"
+        }
+    ],
+    "hashType": "sha256"
+}

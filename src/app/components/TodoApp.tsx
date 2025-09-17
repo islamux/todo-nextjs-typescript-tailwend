@@ -1,5 +1,4 @@
 'use client'
-
 import { useEffect, useState } from "react"
 import { Todo } from "../types/todos"
 import TodoInput from "./TodoInput"
